@@ -15,7 +15,7 @@
     <?php include('nav.php'); ?>
     <main>
         <a title="En tu casa" href="armala.php"><img src="../../img/cassa.png" alt=""></a>
-        <a title="En el restaurante" href="armala2.php"><img src="../../img/restaurante.png" alt=""></a>
+        <a title="En el restaurante" href="armala2.php"><img class="restaurante-img" src="../../img/restaurante2.jpg" alt=""></a>
     </main>
   </body>
 </html>

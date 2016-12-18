@@ -36,12 +36,25 @@ header{
     top: 0px;
     left: 250px;
     background: #800;
-    padding:15px 0px;
+    height: 40px;
+    padding: 10px;
     color: #fff;
     width: calc(100vw - 250px);
+    z-index: 100;
 }
 
 header p{
     padding:0px 30px;
     text-align: right;
+}
+
+main{
+    position: relative;
+    left: 250px;
+    top: 40px;
+    width: calc(100vw - 250px);
+    height: calc(100vh - 40px);
+    background-image: url(../img/fondo2.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
 }
