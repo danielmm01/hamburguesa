@@ -21,6 +21,7 @@ if(!$_SESSION[$id_tb]){
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1">
         <link rel="stylesheet" href="../../css/interface.css">
+        <link rel="shortcut icon" href="../../img/hamburguesa22.png">
     </head>
     <body>
        <nav>
@@ -29,6 +30,8 @@ if(!$_SESSION[$id_tb]){
            <ul>
                <li><a href="">Agregar mesero</a></li>
                <li><a href="">Listar meseros</a></li>
+               <li><a href="">Agregar Ingredientes</a></li>
+               <li><a href="">Listar Ingredientes</a></li>
                <li><a href="cerrar-sesion.php">Cerrar sesion</a></li>
            </ul>
        </nav>

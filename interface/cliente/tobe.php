@@ -4,6 +4,8 @@
     <meta charset="utf-8">
     <title>Elige donde estas</title>
     <link rel="stylesheet" href="../../css/tobe.css">
+    <link rel="shortcut icon" href="../../img/hamburguesa22.png">
+
   </head>
   <body>
    <header>
@@ -12,8 +14,8 @@
     </header>
     <?php include('nav.php'); ?>
     <main>
-        <a title="en tu casa" href="armala.php"><img src="../../img/cassa.png" alt=""></a>
-        <a title="en el restaurante" href="armala2.php"><img src="../../img/restaurante.png" alt=""></a>
+        <a title="En tu casa" href="armala.php"><img src="../../img/cassa.png" alt=""></a>
+        <a title="En el restaurante" href="armala2.php"><img src="../../img/restaurante.png" alt=""></a>
     </main>
   </body>
 </html>

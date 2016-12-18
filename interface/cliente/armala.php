@@ -4,10 +4,16 @@
     <meta charset="utf-8">
     <title>Home</title>
     <link rel="stylesheet" href="../../css/tobe.css">
+    <link rel="shortcut icon" href="../../img/hamburguesa22.png">
+
   </head>
-  <?php include('nav.php'); ?>
   <body>
-      <header class="M">¡Arma tu Hamburgueza!</header>
+  <header>
+        <h1>DennyBurger</h1>
+         <p>Arma tu Hamburguesa</p>
+    </header>
+  <?php include('nav.php'); ?>
+      
     <form class="" action="IMPRECION.php" method="get">
       <label clasS="F" for="">Selecciona tu Carne:</label><br>
       <input class="L" list="Carnes" name="LC" placeholder="Selecciona tu Carne" />
@@ -61,7 +67,7 @@
                 <option label="Jamaica 500ml" value="Jamaica 500ml">
                 <option label="Corona 1/2" value="Corona 1/2">
             </datalist><br>
-      </select>
+      
       <label class="F" for="">Ingresa tu Colonia:</label><br>
       <input class="L" type="text" name="colonia" value="" placeholder="Colonia"><br>
       <label class="F" for="">Ingresa tu Calle:</label><br>
@@ -76,5 +82,5 @@
       <input class="L" type="text" name="nombre" value="" placeholder="Nombre">
       <input class="L" type="submit" name="Ordenar" value="Ordenar">
     </form>
-  </body>
+    </body>
 </html>

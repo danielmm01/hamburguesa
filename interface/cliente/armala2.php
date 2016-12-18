@@ -1,96 +1,19 @@
 <!DOCTYPE html>
 <html>
   <head>
-       <link rel="shortcut icon" href="15493939_979595068840697_1772920421_n.png">
-    <meta charset="utf-8">
-    <title>Restaurant</title>
-    <style media="screen">
-    *{
-    margin: 0px;
-    padding: 0px;
-    }
-    .H{
-      background: #000;
-      color: #900000;
-      font-size: 90px;
-      font-family:impact;
-      text-align: center;
-    }
-    .M{
-      height: 40px;
-      background: #880000;
-      color: #FFF;
-      font-size: 30px;
-      font-family:monospace;;
-      text-align: center;
-    }
-    form{
-      width: 450px;
-      background: #330000;
-      height: 970px;
-      margin:10px auto;
-      padding: 25px;
-      border-radius: 50px;
-      color: #fff;
-      font-size: 20px;
-      font-family:cursive;
-    }
-    .L{
-      margin-top: 15px;
-      margin-bottom: 15px;
-      width: 440px;
-      height: 30px;
-      border: 0px;
-      background: #990000;
-      color: white;
-      font-size: 20px;
-      font-family: monospace;
-    }
-    .V{
-      margin-top: 15px;
-      margin-bottom: 15px;
-      width: 15px;
-      height: 20px;
-      border: 0px;
-      background: #990000;
-      color: white;
-      font-size: 30px;
-      font-family: monospace;
-        }
-    .F{
+      <meta charset="utf-8">
+      <title>Home</title>
+      <link rel="stylesheet" href="../../css/tobe.css">
+      <link rel="shortcut icon" href="../../img/hamburguesa22.png">
 
-      color:gold;
-      font-size: 25px;
-      font-family: monospace;
-        }
-        body{
-            background:url(15570988_979595075507363_1446596343_n.jpg)
-        }
-        .I{
-          height: 50px;
-          background: #000;
-          color: #FFF;
-        }
-        .Z{
-          width: 200px;
-          height: 50px;
-          border: 0px;
-          background-color: #880000;
-          font-size: 20px;
-          color:#fff;
-        }
-    </style>
-  </head>
-  <body>
-    <header class="H">NachoBurguer</header>
-    <center><header class="I">
-      <a href="INICIO.html"><input class="Z" type="button" name="Inicio" value="Inicio"></a>
-      <a href="MENU.html"><input class="Z" type="button" name="Menu" value="Menu"></a>
-      <a href="https://www.facebook.com/"><input class="Z" type="button" name="Facebook" value="Facebook"></a>
-      <a href="UBICACION.html"><input class="Z" type="button" name="Ubicacion" value="Ubicacion"></a>
-      <a href="CONTACTO.html"><input class="Z" type="button" name="Contactanos" value="Contactanos"></a>
-    </header></center>
-      <header class="M">¡Arama tu Hamburgueza!</header>
+      </head>
+       <body>
+      <header>
+        <h1>DennyBurger</h1>
+         <p>Arma tu Hamburguesa</p>
+    </header>
+      <?php include('nav.php'); ?>
+      <header class="M">¡Arma tu Hamburgueza!</header>
     <form class="" action="IMPRECION2.php" method="get">
       <label clasS="F" for="">Selecciona tu Carne:</label><br>
       <input class="L" list="Carnes" name="LC" />
@@ -165,5 +88,4 @@
       </select>
       <input class="L" type="submit" name="Ordenar" value="Ordenar">
     </form>
-  </body>
 </html>

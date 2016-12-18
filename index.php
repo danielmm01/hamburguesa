@@ -2,6 +2,9 @@
 <html>
   <head>
     <link rel="stylesheet" href="css/index.css">
+    <link rel="shortcut icon" href="img/hamburguesa22.png">
+
+
     <meta charset="utf-8">
     <title>DENNYBURGUER</title>
   </head>

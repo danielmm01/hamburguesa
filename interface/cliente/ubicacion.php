@@ -6,6 +6,8 @@
         <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1">
         <link rel="stylesheet" href="../../css/tobe.css">
         <link rel="stylesheet" href="../../css/ubicacion.css">
+        <link rel="shortcut icon" href="../../img/hamburguesa22.png">
+
     </head>
     <body>
     <header>
