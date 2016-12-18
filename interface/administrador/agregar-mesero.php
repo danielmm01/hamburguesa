@@ -9,7 +9,7 @@
     <body>
     <?php include('nav.php'); ?>
     <main>
-        <form action="" method="post">
+        <form action="../../php/agregar/mesero.php" method="post">
             <h3>Agregar mesero</h3>
             <hr>
             <label for="id">Clave:</label>
