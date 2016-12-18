@@ -1,10 +1,13 @@
 <!DOCTYPE html>
-<html lang="es">
-    <head>
-        <title>Pagina</title>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1">
-    </head>
-    <body>
-    </body>
+<html>
+  <head>
+       <link rel="shortcut icon" href="15493939_979595068840697_1772920421_n.png">
+    <meta charset="utf-8">
+    <title>NACHOBURGUER</title>
+  </head>
+  <body>
+    <header class="H">NachoBurguer</header>
+    <header class="M">Selecciona la imagen para comenzar a disfrutar de nuestras ricas hamburguesas</header>
+    <center><a title="TOBE" href="TOBE.html"><img src="15555112_979595332174004_2075281099_n.png"  alt=""></a></center>
+  </body>
 </html>
