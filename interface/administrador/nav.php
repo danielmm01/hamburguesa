@@ -18,7 +18,7 @@ if(!$_SESSION[$id_tb]){
           <h2>Menu: Administradores</h2>
           <hr>
            <ul>
-               <li><a href="">Agregar mesero</a></li>
+               <li><a href="agregar-mesero.php">Agregar mesero</a></li>
                <li><a href="">Listar meseros</a></li>
                <li><a href="">Agregar Ingredientes</a></li>
                <li><a href="">Listar Ingredientes</a></li>

@@ -1,0 +1,30 @@
+form{
+    max-width: 500px;
+    margin:0px auto;
+    padding: 15px;
+    background: rgba(70,70,70,0.7);
+    border-radius: 7px;
+}
+
+form h3{
+    color: #fff;
+    text-align: center;
+}
+
+form input,label{
+    width: 100%;
+}
+
+form input{
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 7px;
+    font-size: 15px;
+    border: none;
+}
+
+form label{
+    margin-bottom: 5px;
+    color: #fff;
+    font-size: 15px;
+}
