@@ -20,6 +20,8 @@ if(!$_SESSION[$id_tb]){
            <ul>
                <li><a href="agregar-mesero.php">Agregar mesero</a></li>
                <li><a href="">Listar meseros</a></li>
+                <li><a href="agregar-categoria.php">Agregar Categoria</a></li>
+               <li><a href="">Listar  ategoria</a></li>
                <li><a href="agregar-ingredientes.php">Agregar Ingredientes</a></li>
                <li><a href="">Listar Ingredientes</a></li>
                <li><a href="cerrar-sesion.php">Cerrar sesion</a></li>
