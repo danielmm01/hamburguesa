@@ -10,16 +10,16 @@
     <?php include ('nav.php');?>
     <main>
      <form action="" method="post">
-       <h3>Agregar Ingredientes<h3>
-        <label for="id"> clave: </label>
+         <h3>Agregar Ingredientes</h3>
+        <label for="id"> Clave: </label>
         <input type="text" id="id" name="id" placeholder="Clave">
         <label for="nombre">*Nombre:</label>
-        <input type="text" id="nombre" name="nombre" placeholder="nombre">
+        <input type="text" id="Nombre" name="Nombre" placeholder="Nombre" required>
         <label for="app">*Precio:</label>
-        <input type="text" id="app" name="app" placeholder="precio">
+        <input type="text" id="app" name="app" placeholder="Precio" required>
         <label for="apm">*Categoria:</label>
-        <input type="text" id="apm" placeholder="categoria">
-        <input type="submit" value="ingresar">
+        <input type="text" id="apm" placeholder="Categoria" required>
+        <input type="submit" value="Ingresar">
         </form>
     </main>
    
