@@ -28,3 +28,7 @@ form label{
     color: #fff;
     font-size: 15px;
 }
+
+form input[type="submit"]{
+    cursor: pointer;
+}
