@@ -1,0 +1,57 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header h1{
+  background: #000;
+  color: #900000;
+  font-size: 90px;
+  font-family:impact;
+  text-align: center;
+}
+
+header p{
+  height: 40px;
+  background: #880000;
+  color: #FFF;
+  font-size: 30px;
+  font-family:monospace;;
+  text-align: center;
+}
+
+body{
+  background: url(../img/fondocafe.jpg);
+}
+
+main{
+    text-align: center;
+}
+
+main a img{
+    width: 400px;
+    margin-right: 100px;
+    margin-top: 50px;
+}
+
+nav ul{
+    display: flex;
+    text-align: center;
+    background: #000;
+    border-top:solid 1px #000;
+}
+
+nav ul li{
+    list-style: none;
+    margin: auto;
+    padding: 10px;
+    background: #880000;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    margin: auto;
+    font-size: 20px;
+    
+}

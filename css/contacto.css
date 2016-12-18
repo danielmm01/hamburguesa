@@ -1,0 +1,14 @@
+.contacto{
+    margin: 100px;
+}
+
+.contacto h3{
+    font-size: 30px;
+    color: #fff;
+    margin-bottom: 50px;
+}
+
+.contacto h3 img{
+    width: 40px;
+    margin-right: 20px;
+}

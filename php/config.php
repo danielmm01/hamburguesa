@@ -1,5 +1,5 @@
 <?php
 define("dsn","mysql:host=localhost;dbname=hamburguesa");
-define("usuario_bd", "Danny");
-define("pass_bd","danylgp350fmor");
+define("usuario_bd", "root");
+define("pass_bd","");
 ?>

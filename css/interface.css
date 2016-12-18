@@ -1,0 +1,47 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+nav{
+    position: fixed;
+    width: 250px;
+    padding: 0px 15px;
+    background: #800;
+    min-height: 100vh;
+    overflow-y: auto;
+    z-index: 100;
+}
+
+nav h2{
+    text-align: center;
+    padding-top: 20px;
+    color: #fff;
+}
+
+nav li{
+    list-style: none;
+    padding-top: 10px;
+}
+
+nav li a{
+    text-decoration: none;
+    cursor: pointer;
+    color: #fff;
+}
+
+header{
+    position: fixed;
+    top: 0px;
+    left: 250px;
+    background: #800;
+    padding:15px 0px;
+    color: #fff;
+    width: calc(100vw - 250px);
+}
+
+header p{
+    padding:0px 30px;
+    text-align: right;
+}
