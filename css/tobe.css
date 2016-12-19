@@ -24,8 +24,8 @@ body{
   background: url(../img/fondocafe.jpg);
 }
 
-main{
-    /*text-align: center;*/
+.tobe{
+    text-align: center;
 }
 
 main a img{

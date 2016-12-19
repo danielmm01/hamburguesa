@@ -23,7 +23,7 @@
             include('../../php/class.conexion.php');
             $modelo=new conexion();
             $conexion=$modelo->get_conexion();
-            $sql="select a.id_ingrediente,a.nombre from tb_ingrediente a left join tb_categoria b on b.id_categ=a.id_categ where b.nombre='panes'";
+            $sql="select a.id_ingrediente,a.nombre from tb_ingrediente a left join tb_categoria b on b.id_categ=a.id_categ where b.nombre='pan'";
             $declaracion=$conexion->prepare($sql);
             $declaracion->execute();
             ?>

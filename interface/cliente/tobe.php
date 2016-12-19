@@ -13,7 +13,7 @@
         <p>Selecciona un lugar para disfrutar</p>
     </header>
     <?php include('nav.php'); ?>
-    <main>
+    <main class="tobe">
         <a title="En tu casa" href="armala.php"><img src="../../img/cassa.png" alt=""></a>
         <a title="En el restaurante" href="armala2.php"><img class="restaurante-img" src="../../img/restaurante2.jpg" alt=""></a>
     </main>

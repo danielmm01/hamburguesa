@@ -11,12 +11,7 @@
         include('../../php/class.conexion.php');
         $modelo=new conexion();
         $conexion=$modelo->get_conexion();
-        while($resultado=$_GET){
-            $rows[]=$resultado;
-        }
-        $sql="select * from tb_ingrediente where id_ingrediente=$_GET[0]";
-        echo count($_GET).$rows[0];
-        
+        $sql="select * from tb_ingrediente where id_ingrediente=".$_GET['pan']";
         $declaracion=$conexion->prepare($sql);
         $declaracion->execute();
         $resultado=$declaracion->fetch();
