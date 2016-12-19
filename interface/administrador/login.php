@@ -15,7 +15,7 @@
             <p>Inicia sesion</p>
         </header>
         <?php include('nav2.php'); ?>
-        <main>
+        <main class="tobe">
             <form action="../../php/validar_sesion" method="post">
                <h2>Iniciar sesion como administrador</h2>
                <img src="../../img/hamburguesa1car.png" alt="">

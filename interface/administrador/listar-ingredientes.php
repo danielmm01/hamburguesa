@@ -21,7 +21,7 @@
             ?>
             <table border="1">
                <tr>
-                   <th colspan="4">Ingredientes</th>
+                   <th colspan="6">Ingredientes</th>
                </tr>
                <tr>
                    <th>Clave</th>
@@ -37,6 +37,8 @@
                         <td><?php echo $resultado[1] ?></td>
                         <td><?php echo $resultado[2] ?></td>
                         <td><?php echo $resultado[3] ?></td>
+                        <td><a href="modificar-ingrediente.php?id=<?php echo $resultado[0] ?>">Modificar</a></td>
+                        <td><a href="../../php/eliminar/ingrediente.php?id=<?php echo $resultado[0] ?>">Eliminar</a></td>
                     </tr>
                     <?php
                 }
