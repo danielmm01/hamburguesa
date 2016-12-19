@@ -14,7 +14,7 @@
             <h1>DennyBurger</h1>
             <p>Inicia sesion</p>
         </header>
-        <?php include('../cliente/nav.php'); ?>
+        <?php include('nav2.php'); ?>
         <main>
             <form action="../../php/validar_sesion" method="post">
                <h2>Iniciar sesion como administrador</h2>
