@@ -2,8 +2,8 @@
 include('../class.conexion.php');
 $id=$_POST['id'];
 $nombre=$_POST['nombre'];
-$app=$_POST['precio'];
-$apm=$_POST['id'];
+$precio=$_POST['precio'];
+$id_categ=$_POST['id_categ'];
 if($id==""){
     $id="null";
 }
@@ -11,7 +11,7 @@ if($id==""){
 $modelo= new conexion();
 $conexion = $modelo->get_conexion();
 
-$sql="insert into tb_ingrediente(id_ingrediente,nombre,precio,id_categ) values($id,'$nombre','$precio','$id_categ')";
+$sql="insert into tb_ingrediente(id_ingrediente,nombre,precio,id_categ) values($id,'$nombre',$precio,'$id_categ')";
 $declaracion=$conexion->prepare($sql);
 if(!$declaracion->execute()){
     echo $id.$nombre.$precio.$id_categ.$sql;

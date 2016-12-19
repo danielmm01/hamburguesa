@@ -17,8 +17,29 @@
             <input type="text" id="nombre" name="nombre" placeholder="Nombre" required>
             <label for="precio">*Precio:</label>
             <input type="text" id="precio" name="precio" placeholder="Precio" required>
-            <label for="id">*Categoria:</label>
-            <input type="text" id="categoria" name="categoria" placeholder="Categoria" required>
+            <label for="id_categ">*Categoria:</label>
+            <?php
+            include('../../php/class.conexion.php');
+            $modelo=new conexion();
+            $conexion=$modelo->get_conexion();
+            $sql="select * from tb_categoria";
+            $declaracion=$conexion->prepare($sql);
+            $declaracion->execute();
+            ?>
+            <select name="id_categ" id="id_categ">
+            <option value="">-- Selecionar categoria --</option>
+            <?php
+            while($resultado=$declaracion->fetch()){
+            ?>
+                <option value="<?php echo $resultado[0]; ?>"><?php echo $resultado[1]; ?></option>
+            <?php    
+            }
+            ?>
+            </select>
+            <?php
+            $conexion=null;
+            $declaracion=null;
+            ?>
             <input type="submit" value="Ingresar">
         </form>
     </main> 
