@@ -18,7 +18,26 @@
             <label for="precio">*Precio:</label>
             <input type="text" id="precio" name="precio" placeholder="Precio" required>
             <label for="id">*Categoria:</label>
-            <input type="text" id="categoria" name="categoria" placeholder="Categoria" required>
+            <?php
+            include('../../php/class.conexion.php');
+            $modelo=new conexion();
+            $conexion=$modelo->get_conexion();
+            $sql="select * from tb_categoria";
+            $decalaracion=$conexion->prepare($sql);
+            $decalaracion->execute();
+            ?>
+            <select name="id_categ" id="id_categ">
+            <option value="">-- Selecionar categoria</option>
+            <?php
+            while($resultado=$decalaracion->fetch()){
+                ?>
+                <option value="<?php echo $resultado[0] ?>"><?php echo $resultado[1] ?></option>
+                <?php
+            }
+                $conexion=null;
+                $decalaracion=null;
+            ?>
+            </select>
             <input type="submit" value="Ingresar">
         </form>
     </main> 
