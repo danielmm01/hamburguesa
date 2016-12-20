@@ -33,9 +33,7 @@
         <ul>
             <p>Datos del cliente</p>
             <li>Nombre: <?php echo $_GET[nombre] ?></li>
-            <li>Direccion: <?php echo $_GET[direccion] ?></li>
-            <li>Telefono: <?php echo $_GET[telefono] ?></li>
-            <li>Casa: <?php echo $_GET[casa] ?></li>
+            <li>Mesa: <?php echo $_GET[mesa] ?></li>
             <hr>
         </ul>
         <ol>

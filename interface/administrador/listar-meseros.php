@@ -20,13 +20,15 @@
             ?>
             <table border="1">
                <tr>
-                   <th colspan="4">Mesero</th>
+                   <th colspan="6">Mesero</th>
                </tr>
                <tr>
                    <th>Clave</th>
                    <th>Nombre</th>
                    <th>Apellido Paterno</th>
                    <th>Apellido Materno</th>
+                   <th>Modificar</th>
+                   <th>Eliminar</th>
                </tr>
                 <?php
                 while($resultado=$declaracion->fetch()){
@@ -36,6 +38,9 @@
                         <td><?php echo $resultado[1] ?></td>
                         <td><?php echo $resultado[2] ?></td>
                         <td><?php echo $resultado[3] ?></td>
+                        
+                        <td><a href="modificar-mesero.php?id=<?php echo $resultado[0] ?>">Modificar</a></td>
+                        <td><a href="../../php/eliminar/mesero.php?id=<?php echo $resultado[0] ?>">Eliminar</a></td>
                     </tr>
                     <?php
                 }

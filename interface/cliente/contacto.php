@@ -15,7 +15,7 @@
         <p>!Contactanos¡</p>
     </header>
     <?php include('nav.php'); ?>
-    <main class="contacto">
+    <main class="contacto tobe">
         <h3><img src="../../img/telefono.png" alt="">Telefono: 985-122-81-48</h3>
         <h3><img src="../../img/reloj.png" alt="">Horario: Lunes a Sabado 4pm a 12am</h3>
         <h3><img src="../../img/correo.png" alt="">Correo: nachoburguergmail.com</h3>

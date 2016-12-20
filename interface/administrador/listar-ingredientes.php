@@ -28,6 +28,8 @@
                    <th>Nombre</th>
                    <th>Precio</th>
                    <th>Categoria</th>
+                   <th>Modificar</th>
+                   <th>Eliminar</th>
                </tr>
                 <?php
                 while($resultado=$declaracion->fetch()){

@@ -15,7 +15,7 @@
         <p>Elija uno de nuestros deliciosos paquetes y contactanos</p>
     </header>
     <?php include('nav.php'); ?>
-    <main class="menu">
+    <main class="menu tobe">
         <img src="../../img/hambur30.jpg" alt="">
         <img src="../../img/hamburguesa50.jpg" alt="">
         <img src="../../img/hamburguesa60.jpg" alt="">
