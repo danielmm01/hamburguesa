@@ -10,7 +10,7 @@
   </head>
   <body>
   <header>
-        <h1>DennyBurger</h1>
+        <h1>DannyBurger</h1>
          <p>Arma tu Hamburguesa</p>
     </header>
   <?php include('nav.php'); ?>
@@ -28,7 +28,7 @@
             $declaracion->execute();
             ?>
             <select name="pan" id="pan">
-            <option value="">-- Seleccionar pan --</option>
+            <option value="0">-- Seleccionar pan --</option>
             <?php
             while($resultado=$declaracion->fetch()){
                 ?>
@@ -46,7 +46,7 @@
             $declaracion->execute();
             ?>
             <select name="carne" id="carne">
-            <option value="">-- Seleccionar carne --</option>
+            <option value="0">-- Seleccionar carne --</option>
             <?php
             while($resultado=$declaracion->fetch()){
                 ?>
@@ -63,7 +63,7 @@
             $declaracion->execute();
             ?>
             <select name="salsa" id="salsa">
-            <option value="">-- Seleccionar salsa --</option>
+            <option value="0">-- Seleccionar salsa --</option>
             <?php
             while($resultado=$declaracion->fetch()){
                 ?>
@@ -165,7 +165,7 @@
             <label for="telefono">*telefono:</label>
             <input type="text" id="telefono" name="telefono" placeholder="telefono" required>
             <label for="color de casa">*color de casa:</label>
-            <input type="text" id="color de casa" name="color de casa" placeholder="color de casa" required>
+            <input type="text" id="color de casa" name="casa" placeholder="color de casa" required>
             
             
             

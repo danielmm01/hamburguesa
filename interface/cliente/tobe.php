@@ -9,7 +9,7 @@
   </head>
   <body>
    <header>
-        <h1>DennyBurger</h1>
+        <h1>DannyBurger</h1>
         <p>Selecciona un lugar para disfrutar</p>
     </header>
     <?php include('nav.php'); ?>

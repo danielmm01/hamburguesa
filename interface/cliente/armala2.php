@@ -10,7 +10,7 @@
   </head>
   <body>
   <header>
-        <h1>DennyBurger</h1>
+        <h1>DannyBurger</h1>
          <p>Arma tu Hamburguesa</p>
     </header>
   <?php include('nav.php'); ?>
@@ -92,7 +92,7 @@
             </select>
              <label for="adrezos">aderezos:</label>
             <?php
-            $sql="select a.id_ingrediente,a.nombre from tb_ingrediente a left join tb_categoria b on b.id_categ=a.id_categ where b.nombre='aderezoz'";
+            $sql="select a.id_ingrediente,a.nombre from tb_ingrediente a left join tb_categoria b on b.id_categ=a.id_categ where b.nombre='aderezos'";
             $declaracion=$conexion->prepare($sql);
             $declaracion->execute();
             ?>
@@ -148,7 +148,7 @@
             $declaracion->execute();
             ?>
             <select name="bebida" id="bebida">
-            <option value="0">-- Seleccionar bebida --</option>
+            <option value="0">-- Seleccionar bebida --</option>x
             <?php
             while($resultado=$declaracion->fetch()){
                 ?>

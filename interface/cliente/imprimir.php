@@ -26,9 +26,15 @@
         $declaracion->execute();
     ?>
     <div class="orden">
-        <h2>Pedido numero:</h2>
+        <h2>Pedido:</h2>
         <hr>
         <h4>Detalles: </h4>
+        <?php 
+        $fecha=date("d-m-y");
+                $hora=date("H:i:s",time()+3600*1);
+                echo "Fecha: ".$fecha."<br>";
+                echo "Hora: ".$hora;
+        ?>
         <hr>
         <ul>
             <p>Datos del cliente</p>
@@ -50,8 +56,10 @@
                     
                     $total=$total+$resultado[2];
             }
+                
             ?>
-            <li>Total: <?php echo " - ".$total ?></li>
+            <p>Total: <?php echo " - $ ".$total ?></p>
+            
             
         </ol>  
     </div>

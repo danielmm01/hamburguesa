@@ -6,7 +6,7 @@
 
 
     <meta charset="utf-8">
-    <title>DENNYBURGUER</title>
+    <title>DANNYBURGUER</title>
   </head>
   <body>
     <?php include('header.php'); ?>
