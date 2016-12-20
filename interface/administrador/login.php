@@ -11,7 +11,7 @@
     </head>
     <body>
        <header>
-            <h1>DennyBurger</h1>
+            <h1>DannyBurger</h1>
             <p>Inicia sesion</p>
         </header>
         <?php include('nav2.php'); ?>
